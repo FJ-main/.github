@@ -1,6 +1,6 @@
-<h1 align="center">〇〇部 開発チームへようこそ！</h1>
+<h1 align="center">福岡地所DX推進部部 GitHubリポジトリへようこそ！</h1>
 
-このOrganizationは、〇〇部の業務効率化とデータ活用を推進するためのリポジトリ群です。
+このOrganizationは、DX推進部のリポジトリ群です。
 
 ---
 
