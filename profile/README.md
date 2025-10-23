@@ -1,6 +1,6 @@
-<h1 align="center">福岡地所DX推進部部 GitHubリポジトリへようこそ！</h1>
+<h1 align="center">FJ DX推進部 GitHubリポジトリへようこそ！</h1>
 
-このOrganizationは、DX推進部のリポジトリ群です。
+このOrganizationは、DX推進部が内で活用しているスクリプトやドキュメント群を管理する目的で利用します。
 
 ---
 
@@ -32,4 +32,4 @@
 
 ## 💡 困ったときは
 
-まずは **[Discussion](https://github.com/orgs/FJ-main/discussions)** で気軽に質問してください！
+ **[Discussion](https://github.com/orgs/FJ-main/discussions)** で気軽に質問してください！
