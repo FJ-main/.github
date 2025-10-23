@@ -1,0 +1,60 @@
+name: CI (Python)
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build-test:
+    name: Lint, Type-check, Test (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ "3.10", "3.11", "3.12" ]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"  # requirements.txt を使う場合は自動キャッシュ
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          # 開発用ツール
+          pip install pytest ruff mypy
+
+      - name: Lint (ruff)
+        run: |
+          ruff version
+          ruff check .
+
+      - name: Type check (mypy)
+        run: |
+          mypy --install-types --non-interactive .
+
+      - name: Run tests (pytest)
+        env:
+          # 必要なら環境変数をここに定義
+          # EXAMPLE_ENV: value
+          PYTHONWARNINGS: default
+        run: |
+          pytest -q --disable-warnings --maxfail=1
+
+      # 失敗時にテスト結果をアーティファクトとして残したい場合の例（任意）
+      - name: Upload pytest cache (optional)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: .pytest_cache
+          path: .pytest_cache
+          if-no-files-found: ignore
