@@ -3,15 +3,15 @@
 このリポジトリは、業務効率化やデータ活用を目的としたコード管理を円滑にするための **GitHub標準設定** をまとめています。
 
 ## 📂 構成
-.github/
-    ├── ISSUE_TEMPLATE/           # Issueテンプレート
-    │   ├── bug_report.md         # バグ報告用
-    │   └── feature_request.md    # 改善要望用
-    ├── workflows/                # GitHub Actionsワークフロー
-    │   └── ci.yml                # CI（テスト・Lint・品質チェック）
-    ├── dependabot.yml            # 依存関係の脆弱性検知と自動更新
-    ├── PULL_REQUEST_TEMPLATE.md  # PRテンプレート
-    └── README.md                 # この説明ファイル
+.github/  
+　　├── ISSUE_TEMPLATE/           # Issueテンプレート  
+　　│　　├── bug_report.md         # バグ報告用  
+　　│　　└── feature_request.md    # 改善要望用  
+　　├── workflows/                # GitHub Actionsワークフロー  
+　　│　　└── ci.yml                # CI（テスト・Lint・品質チェック）  
+　　├── dependabot.yml            # 依存関係の脆弱性検知と自動更新  
+　　├── PULL_REQUEST_TEMPLATE.md  # PRテンプレート  
+　　└── README.md                 # この説明ファイル  
 
 
 ## ✅ 目的
