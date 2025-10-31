@@ -8,7 +8,7 @@
 
 新しく参加した方は、まず以下のリンク先を確認してください。
 
-- **[オンボーディングガイド](https://github.com/FJ-main/onboarding)**
+- **[オンボーディングガイド](https://github.com/FJ-main/onboarding/wiki)**
 - **[GitHub利用ルール](https://github.com/FJ-main/guideline/wiki)**
 ---
 
