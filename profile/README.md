@@ -1,4 +1,4 @@
-<h1 align="center">FJ DX推進部 GitHubリポジトリへようこそ！</h1>
+<h1 align="center">FJ DX推進部 GitHu bOrganizationへようこそ！</h1>
 
 このOrganizationは、FJグループで活用しているスクリプトやドキュメントを管理する目的で利用します。
 
