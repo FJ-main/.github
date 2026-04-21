@@ -4,7 +4,7 @@
 
 ---
 
-## 📚 最初に確認する場所 (First Look)
+## 📚 まず確認
 
 新しく参加した方は、まず以下のリンク先を確認してください。
 
@@ -12,13 +12,11 @@
 - **[GitHub利用ルール](https://github.com/FJ-main/guideline/wiki)**
 ---
 
-## 🚀 主要リポジトリ (Core Repositories)
+## 🚀 主要リポジトリ
 
-| リポジトリ名 | 説明 | 担当チーム |
-| :--- | :--- | :--- |
-| 📊 **TBD** | hoge | データ基盤チーム |
-| 📝 **TBD** | hoge | 業務効率化チーム |
-| 📦 **TBD** | チーム内で共通して利用する便利関数をまとめたライブラリ群 | 全員 |
+### Claude Code
+- [インストール＆利用ガイド](https://github.com/FJ-main/tool-claude-code)
+- [組織内共通設定](https://github.com/FJ-main/tool-claude-package)
 
 ---
 
